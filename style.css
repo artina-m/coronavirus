@@ -12,11 +12,12 @@ body {
 .panel {
     display: inline-block;
     vertical-align:top; 
-    overflow: hidden;
     width: 100%;
+    overflow: hidden;
 }
 
 .leftPanel {
+    display: inline-block;
     float: left;
     width: 350px;
     height: 100%;
@@ -24,9 +25,10 @@ body {
 }
 
 .rightPanel {
+    display: inline-block;
+    vertical-align:top; 
     height: 100%;
     width: auto;
-    float: left;
 }
 
 /* Left Panel Text & Functionality */
@@ -35,6 +37,7 @@ body {
     font-size: 42;
     font-family: "Helvetica Neue";
     font-weight: 600;
+    color: #1B2631;
 }
 
 .h2 {
@@ -42,6 +45,7 @@ body {
     font-size: 24;
     font-family: "Helvetica Neue";
     font-weight: 200;
+    color: #1B2631;
 }
 
 button {
