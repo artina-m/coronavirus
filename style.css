@@ -5,3 +5,13 @@ body{
     margin: auto;
     padding: 0;
 }
+
+.panel {
+    display: inline-block;
+}
+
+.panelLeft {
+    background-color: lightgray;
+    width: 200px;
+    height: 100%;
+}
