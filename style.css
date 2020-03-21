@@ -1,17 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Playfair+Display+SC');
 
+html {
+  height: 100%;
+}
 
-body{
+body {
     margin: auto;
     padding: 0;
+    min-height: 100%;
 }
 
 .panel {
     display: inline-block;
 }
 
-.panelLeft {
-    background-color: lightgray;
-    width: 200px;
+.leftPanel {
+    display: inline-block;
+    background-color: #efefef;
+    width: 300px;
     height: 100%;
+    display: inline-block;
+}
+
+.rightPanel {
+    display: inline-block;
+    height: 100%;
+    width: auto;
+    
 }
